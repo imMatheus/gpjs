@@ -11,9 +11,7 @@
     "main": "index.js",
     "bin": "index.js",
     "scripts": {
-        "dev": "node .",
-        "test": "yarn tests",
-        "format": "prettier --check format"
+        "dev": "node ."
     },
     "keywords": [],
     "author": "Matheus Mendes",
