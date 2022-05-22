@@ -1,0 +1,24 @@
+{
+    "name": "gpjs",
+    "version": "0.0.2",
+    "description": "A simple npx script to get available script from your package.json file",
+    "homepage": "https://github.com/imMatheus/gpjs",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/imMatheus/gpjs"
+    },
+    "type": "module",
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {
+        "dev": "node .",
+        "test": "yarn tests",
+        "format": "prettier --check format"
+    },
+    "keywords": [],
+    "author": "Matheus Mendes",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^5.0.1"
+    }
+}
